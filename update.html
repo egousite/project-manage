@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联动导航与内容滚动定位</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 左侧导航 -->
+        <div class="sidebar">
+            <div class="nav-list">
+                <div class="nav-item active" data-category="todo">个人任务管理工具</div>
+                <div class="nav-item" data-category="description">待定...</div>
+                <div class="nav-item" data-category="remark">待定...</div>
+                <div class="nav-item" data-category="implementation">待定...</div>
+                <div class="nav-item" data-category="cost">待定...</div>
+            </div>
+        </div>
+
+        <!-- 右侧内容区域 -->
+        <div class="content-area">
+            <div class="content-list">
+                <!-- 内容区块 -->
+                <section class="content-section" id="todo">
+                    <h2 class="section-title">任务管理</h2>
+                    <div class="section-content">
+                        <div class="data-row">
+                            <span class="label">github：</span>
+                            <span class="value">https://github.com/xxx</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="label">技术栈：</span>
+                            <span class="value">Vue全家桶、Element-UI、axios</span>
+                        </div>
+                        <!-- 更多数据行... -->
+                        <div class="data-row">
+                            <span class="label">功能描述：</span>
+                            <span class="value">xxx</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 内容区块 -->
+                <section class="content-section" id="description">
+                    <h2 class="section-title">内容说明</h2>
+                    <div class="section-content">
+                        <div class="data-row">
+                            <span class="label">日历周期（分钟）：</span>
+                            <span class="value">月龄15分，好评率100%</span>
+                            <span class="value">￥8 4:10</span>
+                        </div>
+                        <!-- 更多数据行... -->
+
+                    </div>
+                </section>
+
+                <!-- 内容区块 -->
+                <section class="content-section" id="remark">
+                    <h2 class="section-title">备注</h2>
+                    <div class="section-content">
+                        <div class="data-row">
+                            <span class="label">需求量</span>
+                            <span class="value">人口密度</span>
+                            <span class="value">人均消费量</span>
+                            <span class="value">人均消费量100%</span>
+                            <span class="value">￥4</span>
+                        </div>
+                        <!-- 更多数据行... -->
+                    </div>
+                </section>
+
+                <!-- 内容区块 -->
+                <section class="content-section" id="implementation">
+                    <h2 class="section-title">项目实施</h2>
+                    <div class="section-content">
+                        <div class="data-row">
+                            <span class="label">筛选条件</span>
+                            <span class="value">长跑/宽带</span>
+                            <span class="value">月龄2分，好评率100%</span>
+                            <span class="value">￥9</span>
+                        </div>
+                        <!-- 更多数据行... -->
+                    </div>
+                </section>
+
+                <!-- 费用统计区块 -->
+                <section class="content-section" id="cost">
+                    <h2 class="section-title">费用统计</h2>
+                    <div class="section-content">
+                        <div class="data-row">
+                            <span class="label">小迟延费</span>
+                            <span class="value">预估系数</span>
+                            <span class="value">红豆等米粥倍数</span>
+                            <span class="value">红豆等米粥三折干粮损耗面积元</span>
+                        </div>
+                        <!-- 更多数据行... -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
