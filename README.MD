@@ -3,7 +3,7 @@
 # 项目管理系统
 1. 汇总项目
 2. 提供项目查看地址
-3. 系统地址：[https://egousite.github.io/project-manage//](https://egousite.github.io/project-manage/)
+3. 系统地址：[https://egousite.github.io/project-manage/](https://egousite.github.io/project-manage/)
 
 ## 项目列表
 - 个人任务管理工具：
